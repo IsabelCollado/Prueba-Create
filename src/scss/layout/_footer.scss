@@ -1,8 +1,37 @@
 .page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100vw;
-  padding: 1rem;
+  height: 18vh;
+  background-color: #fe9831; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.aside_footer_1{
+  width: 60vw;
+  height: 6vh;
+  background-color: #b12b2b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.aside_footer_2{
+  background-color: #955016;
+  width: 25vw;
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   
+}
+
+.links_f{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
 }
