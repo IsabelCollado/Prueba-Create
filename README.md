@@ -1,14 +1,14 @@
-# Prueba CREATE de maquetación
+# CREATE layout test
 
-- Consiste en un Layout compuesto por un logo, menú, cuerpo con un aside que se visualice en formato desktop y footer.
-  La tipografía es simple como un Arial para toda la páguina.
-  Dos versiones disponibles son mobile y desktop
+- It consists of a Layout made up of a logo, menu, body with an aside that is displayed in desktop and footer format.
+- The font is as simple as Arial for the entire page.
+- Two versions available are mobile and desktop.
 
-## Herramientas 🛠️
+## Tools 🛠️
 
 ☑ HTML  
 ☑ SCSS
 
-## Autor ✒️
+## Author ✒️
 
 [@IsabelCollado](https://www.github.com/IsabelCollado)
