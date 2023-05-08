@@ -1,42 +1,84 @@
 .page__header {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.logo-title{
-  width: 100vw;
-  height: 12vh;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+
+.div{
+  padding: 1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  background-color: orange;
-  font-family: Arial, Helvetica, sans-serif;
+  gap: 1rem;
+
+      @media(min-width: 1024px){
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+      }
+}
+.title{
+  font-weight: bolder;
   font-size: 1.5rem;
-  color: black;
-  font-weight: bold;
-  gap: 1rem
+}
+.logo{
+  width: 3rem;
 }
 
-.aside{
+.logo-title{
   width: 100vw;
-  height: 8vh;
+  background-color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: black;
+      @media(min-width: 1024px){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+      }
+  
+}
+
+
+
+.nav{
+  width: 100vw;
+  height: 7vh;
+  padding-right: 2rem;
   background-color: #b12b2b;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;  
+      @media(min-width: 1024px){
+        width: 50%;
+        
+         
+      }
 }
 
 .links{
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: white;
+
+  &:hover {
+    background-color: #c55959;
+    color: black;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
+
 
 
